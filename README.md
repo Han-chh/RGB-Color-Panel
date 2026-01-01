@@ -16,6 +16,7 @@ An RGB color palette application built in Java using Swing. Allows users to inpu
 ## Requirements
 
 - Java Development Kit (JDK) 8 or higher
+- The jar package is packaged with Java 25.
 
 ## Run
 
