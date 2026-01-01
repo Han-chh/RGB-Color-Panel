@@ -17,18 +17,11 @@ An RGB color palette application built in Java using Swing. Allows users to inpu
 
 - Java Development Kit (JDK) 8 or higher
 
-## Installation and Running
+## Run
 
-1. Ensure JDK is installed on your system.
-2. Navigate to the project directory.
-3. Compile the source code:
-   ```
-   javac -d bin src/com/rgbcolorpanel/*.java
-   ```
-4. Run the application:
-   ```
-   java -cp bin com.rgbcolorpanel.Main
-   ```
+```bash
+java -jar RGB-Color-Panel.jar
+```
 
 ## Usage
 
