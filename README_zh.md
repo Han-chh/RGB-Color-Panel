@@ -1,40 +1,35 @@
-# RGB颜色面板
+# RGB Color Panel
 
-使用Swing构建的RGB颜色调色板应用程序。允许用户输入RGB值并可视化生成的颜色。
+一个把数字 RGB 输入即时转换为可见颜色的轻量 Java Swing 工具。
+
+[English](README.md)
+
+## 项目概述
+
+RGB Color Panel 是用于理解红、绿、蓝通道组合方式的小型教学项目。输入三个 0–255 数值，即可将数值与最终渲染颜色直接对应比较。
+
+## 截图
+
+![RGB 数值和对应的蓝色显示区域](assets/screenshots/rgb-color-panel.png)
+
+截图直接来自运行中的 Swing 工具。
 
 ## 功能
 
-- RGB值输入字段（0-255）
-- 实时颜色可视化
-- 颜色显示面板
-- 重置功能
-- 输入验证
-- 键盘导航（Enter键在字段间移动）
-
-## 要求
-
-- Java开发工具包（JDK）8或更高版本
-- jar包使用Java 25打包
+- 三个 RGB 通道输入
+- 0–255 范围校验
+- 即时颜色反馈
+- 回车键导航与生成
+- 重置控件
 
 ## 运行
+
+仓库中的 JAR 已在 Java 25 上验证：
 
 ```bash
 java -jar RGB-Color-Panel.jar
 ```
 
-## 使用方法
+## 项目范围
 
-1. 启动应用程序
-2. 在相应字段中输入RGB值（0-255）
-3. 点击"generate"或在蓝色字段中按Enter显示颜色
-4. 使用"Reset"清除所有字段并重置显示
-
-## 项目结构
-
-- `src/com/rgbcolorpanel/Main.java`：主应用程序窗口
-- `src/com/rgbcolorpanel/RGBColorPanel.java`：RGB颜色选择面板
-- `bin/`：编译的类文件
-
-## 贡献
-
-欢迎贡献改进或附加颜色功能！
+界面有意保持简单，用最小结构清晰展示一次数据到视觉结果的转换。
